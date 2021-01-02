@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn trends.wsgi --log-file -
+web: gunicorn --pythonpath django_app mainapp.wsgi --log-file -
