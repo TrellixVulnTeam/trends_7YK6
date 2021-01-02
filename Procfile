@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath django_app mainapp.wsgi --log-file -
+web: gunicorn --pythonpath backend/django_app mainapp.wsgi --log-file -
