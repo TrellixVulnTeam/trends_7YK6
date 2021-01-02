@@ -25,7 +25,7 @@ SECRET_KEY = 'daa64izmy*v(6h(f!6c4&iwf58i^&#=@2x*cduw#7ug=gwi$iy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['trendtesting.herokuapp.com,']
 
 
 # Application definition
