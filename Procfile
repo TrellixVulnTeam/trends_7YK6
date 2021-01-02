@@ -1,1 +1,1 @@
-web: gunicorn trends.wsgi --log-file -
+web:gunicorn trends.wsgi --log-file -
