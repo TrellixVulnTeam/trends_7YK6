@@ -27,7 +27,7 @@ if DJANGO_ENV == 'development' or DJANGO_ENV == 'production':
     try:
         ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
     except:
-        ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost']
+        ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost', 'trendtesting.herokuapp.com']
 
     DATABASES = {
         "default": {
@@ -42,7 +42,7 @@ if DJANGO_ENV == 'development' or DJANGO_ENV == 'production':
 else:
     SECRET_KEY = 'localsecret'
     DEBUG = True
-    ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost']
+    ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost', 'trendtesting.herokuapp.com']
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
