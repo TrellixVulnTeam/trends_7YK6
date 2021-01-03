@@ -41,7 +41,7 @@ if DJANGO_ENV == 'development' or DJANGO_ENV == 'production':
     }
 else:
     SECRET_KEY = 'localsecret'
-    DEBUG = True
+    DEBUG = False
     ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost', 'trendtesting.herokuapp.com']
     DATABASES = {
         'default': {
